@@ -1,0 +1,257 @@
+h1 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+h5{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+  border: #000000;
+}
+
+body {
+  margin: 0;
+}
+header {
+  background-color: #000000;
+  padding: 15px;
+}
+header ul {
+  float: right;
+  color: white;
+}
+header li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+header p {
+  display: inline-block;
+}
+.heroImg {
+  background-color: white;
+  padding: 100px 15px;
+}
+.content {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color:  #C2ECFF;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button {
+  padding: 15px;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  border-radius: 4px;
+}
+
+button:hover {
+  padding: 15px;
+  background-color: #005d88;
+  color: white;
+  font-size: 15px;
+  border-radius: 4px;
+}
+
+.flexBlock {
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+  padding: 15px;
+  justify-content: center;
+}
+
+
+.container-fluid {
+  margin: auto;
+  padding: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  align-items: center;
+  
+}
+
+footer {
+  background-color: #000000;
+  padding: 5px;
+  color: white;
+  text-align: center;
+}
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+}
+footer li {
+  display: inline-block;
+  padding: 0px 7px;
+}
+
+img {
+  padding: 5px;
+  border: #000000 2px;
+}
+
+ul {
+  align-items: center;
+  margin:0;
+  padding-top: 25px;
+  list-style-type: none;
+}
+
+li {
+  margin:0;
+  padding: 15px;
+  list-style-type: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.preloader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 100000;
+  background-color: white;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+.preloader img {
+  animation: spin 2s ease;
+  transition: all;
+  width: 150px;
+  margin: 0 auto;
+}
+
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(720deg);
+  }
+
+  #dropDown {
+    display: none;
+    width: 200px;
+    color: white;
+    background-color; blue;
+   font-family: 'Poppins', sans-serif;
+  }
+
+#toggle {
+  padding: 15px;
+  font-weight: 500;
+  cursor: pointer; 
+    }
+
+.caseStudy {
+padding: 120px;
+Margin: 20px;
+border: 20px;
+    }
+
+.searchBar {
+      position: fixed;
+      top: 0;
+      right: 0;
+      background-color: black;
+      z-index: 1;
+      padding: 15px;
+      width: 100%;
+      height: 0vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all .5s ease;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+
+#searchForm {
+      display: flex;
+      flex-direction: column;
+      opacity: 0;
+      color: white;
+      transition: all .5s ease;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+
+    .searchBar button {
+      background-color: orange !important;
+      width: 100%
+    }
+
+    .searchButton {
+      position: relative;
+    }
+
+
+    .w3-btn,.w3-button{
+      border:none;
+      display:inline-block;
+      padding:8px 16px;
+      vertical-align:middle;
+      overflow:hidden;
+      text-decoration:none;
+      color:inherit;
+      background-color:inherit;
+      text-align:center;
+      cursor:pointer;
+      white-space:nowrap
+  }
+   .w3-btn:hover{
+      box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)
+  }
+   .w3-btn,.w3-button{
+      -webkit-touch-callout:none;
+      -webkit-user-select:none;
+      -khtml-user-select:none;
+      -moz-user-select:none;
+      -ms-user-select:none;
+      user-select:none
+
+      .w3-input{
+        padding:8px;
+        display:block;
+        border:none;
+        border-bottom:1px solid #ccc;
+        width:100%
+
+        .w3-border {
+          border:1px solid #ccc!important
+      }
+
+      .w3-black,.w3-hover-black:hover {
+        color:#fff!important;
+        background-color:#000!important
+      }
+
+    }
+    .w3-right{
+        float:right!important
+    }
+     .w3-button:hover{
+        color:#000!important;
+        background-color:#ccc!important
+     }
+
+     .w3-justify{
+      text-align:justify!important;
+     }
+
+     .w3-section,.w3-code{
+      margin-top:16px!important;
+      margin-bottom:16px!important
